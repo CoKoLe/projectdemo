@@ -1,0 +1,296 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, table, tbody, tfoot, thead, tr, th, td {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+body {
+    width: 100%;
+    background: none repeat scroll 0 0 #ffffff;
+    color: #000000;
+    font-family: '微软雅黑';
+    font-size: 13px;
+    line-height: 1.5em;
+
+}
+
+a, img {
+    border: 0;
+}
+
+a, a:visited {
+    color: #382F2A;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+}
+
+* html, * html body /* 修正IE6振动bug */         {
+    background-image: url(about:blank);
+    background-attachment: fixed;
+}
+
+* html .header {
+    position: absolute;
+    top: expression(eval(document.documentElement.scrollTop));
+}
+
+.header {
+    height: 60px;
+    line-height: 60px;
+    font-size: 12px;
+    text-transform: uppercase;
+    box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid #DDDDDD;
+    background: #ffffff;
+}
+
+.header-body {
+    width: 980px;
+    margin: 0px auto;
+}
+
+.header .header-body .left a {
+    background: url("../images/logo.png") no-repeat;
+    float: left;
+    line-height: 999em;
+    width: 100px;
+    height: 40px;
+    margin: 10px 20px 0 0;
+
+    overflow: hidden;
+}
+
+.header .header-body .menu {
+    float: left;
+    font-size: 14px;
+    height: 60px;
+    line-height: 60px;
+    margin-right: -1px;
+    position: relative;
+    width: 100px;
+    text-align: center;
+}
+
+.header .header-body .menu:hover {
+    background-color: #F5F5F5;
+}
+
+.user {
+
+    width: 400px;
+    float: left;
+    height: 32px;
+    margin: 28px 0 0 50px;
+}
+
+#top_top {
+    height: 31px;
+    font-size: 13px;
+}
+
+.logBox {
+    background: #ffffff;
+    height: 31px;
+    z-index: 9999;
+}
+
+.siderBar01 {
+    float: right;
+    width: 280px;
+}
+
+.login {
+    position: relative;
+    width: 400px;
+    background: #ffffff;
+    height: 31px;
+    margin: 0 auto;
+    padding: 0 10px;
+    _padding-top: 4px;
+    color: #666;
+    line-height: 30px;
+}
+
+.login input, .login select {
+    margin-top: -1px;
+    _margin-top: 1px;
+    vertical-align: middle;
+}
+
+.login form a {
+    color: #666;
+}
+
+.login form a:hover {
+    color: #c00;
+}
+
+.login label input {
+    width: 80px;
+    height: 14px;
+}
+
+.login .siderNav {
+    position: absolute;
+    top: 2px;
+    width: 400px;
+}
+
+.btnLogin {
+    width: 40px;
+    height: 20px;
+    border: none;
+    cursor: pointer;
+    color: #666;
+}
+
+.btnLogin:hover {
+    color: #333;
+}
+
+.topmenu {
+    margin-top: 5px;
+    line-height: 22px;
+    color: #333;
+    list-style-type: none;
+}
+
+.topmenu li {
+    float: left;
+    position: relative;
+}
+
+.topmenu strong {
+    display: block;
+    position: relative;
+    height: 25px;
+    padding: 0 10px;
+    font-weight: normal;
+    cursor: default;
+    z-index: 20;
+}
+
+.topmenu .jq_hidebox {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    padding: 10px;
+    border: 1px solid #dfdfdf;
+    box-shadow: 0 1px 2px #ccc;
+    background: #fff;
+    z-index: 10;
+}
+
+.topmenu li.hover strong {
+    border: 1px solid #dfdfdf;
+    border-bottom: none;
+    background-color: #fff;
+}
+
+.topmenu li.hover i {
+    color: #FF9900;
+}
+
+.topmenu li.hover {
+    margin: -1px -1px 0 -1px;
+}
+
+.topmenu li.userinfo {
+    width: 100px;
+}
+
+.topmenu li.userinfo strong {
+}
+
+.topmenu li.userinfo .jq_hidebox {
+    width: 250px;
+}
+
+.topmenu li.shopcart {
+    width: 100px;
+    text-align: center;
+}
+
+.topmenu li.shopcart strong {
+}
+
+.topmenu li.shopcart .jq_hidebox {
+    width: 350px;
+}
+
+.topmenu li.webnav {
+    width: 105px;
+}
+
+.topmenu li.webnav .jq_hidebox {
+    width: 180px;
+    left: -75px;
+}
+
+.jq_hidebox a {
+    color: #666
+}
+
+.aSty01 {
+    margin: 0;
+}
+
+.aSty01 dt {
+    margin-top: 6px;
+    padding: 5px 0 2px 0;
+    border-top: 1px solid #e5e5e5;
+}
+
+.aSty01 dd {
+    margin: 0;
+}
+
+.aSty01 dd a {
+    color: #666;
+}
+
+.aSty01 dd a:hover {
+    color: #c00;
+}
+
+.shopping {
+
+    border-bottom: 1px dashed gainsboro;
+    height: 30px;
+}
+
+.shopping a:hover {
+
+    color: orange;
+    text-decoration: underline;
+}
+
+.shopping a i:hover {
+
+    color: red;
+}
+
+.shoppingimage {
+
+    height: 28px;
+    width: 28px;
+    border: 1px solid #ddd;
+    padding: 0;
+    margin-right: 10px;
+    font-size: 0;
+}
+
