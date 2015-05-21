@@ -42,10 +42,11 @@
 
     <filter-mapping>
         <filter-name>encodingFilter</filter-name>
-        <url-pattern>/*</url-pattern>
+        <url-pattern>/v6mall/*</url-pattern>
     </filter-mapping>
 
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
+	<welcome-file>index.html</welcome-file>
     </welcome-file-list>
 </web-app>

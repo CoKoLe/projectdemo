@@ -14,7 +14,6 @@
     <script type="text/javascript" src="<%=request.getContextPath()%>/resources/js/lib/bootstrap.min.js"></script>
     <script type="text/javascript" src="<%=request.getContextPath()%>/resources/js/lib/jquery.form.js"></script>
     <script type="text/javascript" src="<%=request.getContextPath()%>/resources/js/user.js"></script>
-    <script type="text/javascript" src="<%=request.getContextPath()%>/resources/js/shopcartcache.js"></script>
     <script type="text/javascript" src="<%=request.getContextPath()%>/resources/js/common.js"></script>
     <script type="text/javascript">
         var rootPATH = '<%=request.getContextPath()%>';
@@ -42,7 +41,7 @@
 
                                 <div class="jq_hidebox">
                                     <div id="usertitle">
-                                        <span>您好，请先<a data-toggle="modal" data-target="#loginModal" style="color: orange;">&nbsp;&nbsp;登陆</a></span>
+                                        <span><a data-toggle="modal" data-target="#loginModal" style="color: orange;">&nbsp;&nbsp;登陆</a></span>
                                     </div>
                                     <dl class="aSty01">
                                         <dt></dt>
@@ -57,35 +56,6 @@
                                                 </a> | <a href="/" style="margin-left:10px"><i
                                                     class="icon-volume-up"></i> 通知消息 </a>
                                             </div>
-                                        </dd>
-                                    </dl>
-                                </div>
-                            </li>
-                            <li id="collectBox" class="shopcart">
-                                <strong><i class="icon-shopping-cart icon-1-5x"></i>购物车</strong>
-
-                                <div class="jq_hidebox">
-                                    <dl class='aSty01'></dl>
-                                    <dt> 最新加入的商品</dt>
-                                    <dd id="shopping-cart-list"></dd>
-                                    <dd>
-                                        <a id="accountshopcart" class="btn btn-danger btn-default" href="javascript:void(0);">
-                                            <n class="icon-shopping-cart">去购物车结算</n>
-                                        </a>
-                                    </dd>
-                                </div>
-                            </li>
-                            <li class="webnav">
-                                <strong><i class="icon-cogs icon-1-5x"></i>网站导航</strong>
-
-                                <div class="jq_hidebox" style="display: none; ">
-                                    <a href="javascript:;" onclick="SetHome(window.location)" class="red"
-                                       target="_self"> 设为首页 </a> <a class="red" target="_self" onclick="addCookie()"
-                                                                    href="javascript:void(0);"> 添加收藏 </a>
-                                    <dl class="aSty01">
-                                        <dt><a href="/"> 菜单 </a></dt>
-                                        <dd><a href="/"> 菜单一 </a> | <a href="/"> 菜单一 </a> | <a href="/">菜单一 </a> <br>
-                                            <a href="/"> 菜单一 </a> | <a href="/"> 菜单一 </a> | <a href="/"> 菜单一 </a>
                                         </dd>
                                     </dl>
                                 </div>

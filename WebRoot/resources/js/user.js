@@ -61,7 +61,7 @@ function loadUserInfo() {
     } else {
 
         $("#usertitle").children().remove();
-        $("#usertitle").append("<span>您好，请先<a data-toggle='modal' data-target='#loginModal' style='color: orange;'>&nbsp;&nbsp;登陆</a></span>");
+        $("#usertitle").append("<span><a data-toggle='modal' data-target='#loginModal' style='color: orange;'>&nbsp;&nbsp;登陆</a></span>");
     }
 }
 
