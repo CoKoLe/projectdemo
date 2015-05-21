@@ -1,1 +1,15 @@
+#system
+*.swp
+.DS_Store
+
+#idea
+.idea/
+*.iml
+out/
+
+#eclipse
+/bin/
 /classes/
+.classpath
+.project
+.settings/
